@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Beranda{% endblock title %}
+
+{% block main %}
+
+    <h1>Halo {{ data["name"] }}!</h1>
+    <img src="{{ url_for('static', filename='image/building.jpg') }}" />
+
+{% endblock main %}
